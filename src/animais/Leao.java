@@ -2,9 +2,8 @@ package animais;
 
 import classesAbstratas.AnimalTerrestreAB;
 
-public class Leão extends AnimalTerrestreAB {
-
-    public Leão(int idade, String nome, String tipo, String habitat, double peso, double altura, int quantidadePatas) {
+public class Leao extends AnimalTerrestreAB {
+    public Leao(int idade, String nome, String tipo, String habitat, double peso, double altura, int quantidadePatas) {
         super(idade, nome, tipo, habitat, peso, altura, quantidadePatas);
     }
 
@@ -24,5 +23,18 @@ public class Leão extends AnimalTerrestreAB {
     public void dormir(int horasDormidas) {
         this.horasDormidas += horasDormidas;
         System.out.println("O leão dormiu " + horasDormidas + " horas");
+    }
+
+    @Override
+    public String toString() {
+        return "Leao{" +
+                "tipo='" + tipo + '\'' +
+                ", habitat='" + habitat + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", comidaIngerida=" + comidaIngerida +
+                ", distanciaPercorrida=" + distanciaPercorrida +
+                ", horasDormidas=" + horasDormidas +
+                '}';
     }
 }

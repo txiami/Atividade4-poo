@@ -16,19 +16,4 @@ public abstract class AnimalTerrestreAB extends AnimalAB {
         this.quantidadePatas = quantidadePatas;
     }
 
-    @Override
-    public String toString() {
-        return "AnimalTerrestreAB{" +
-                "quantidadePatas=" + quantidadePatas +
-                ", idade=" + idade +
-                ", nome='" + nome + '\'' +
-                ", tipo='" + tipo + '\'' +
-                ", habitat='" + habitat + '\'' +
-                ", peso=" + peso +
-                ", altura=" + altura +
-                ", comidaIngerida=" + comidaIngerida +
-                ", distanciaPercorrida=" + distanciaPercorrida +
-                ", horasDormidas=" + horasDormidas +
-                '}';
-    }
 }

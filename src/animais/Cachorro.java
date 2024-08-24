@@ -25,4 +25,17 @@ public class Cachorro extends AnimalTerrestreAB {
         this.horasDormidas += horasDormidas;
         System.out.println("O cachorro dormiu " + horasDormidas + " horas");
     }
+
+    @Override
+    public String toString() {
+        return "Cachorro{" +
+                "tipo='" + tipo + '\'' +
+                ", habitat='" + habitat + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", comidaIngerida=" + comidaIngerida +
+                ", distanciaPercorrida=" + distanciaPercorrida +
+                ", horasDormidas=" + horasDormidas +
+                '}';
+    }
 }

@@ -26,4 +26,17 @@ public class Gato extends AnimalTerrestreAB {
         this.horasDormidas += horasDormidas;
         System.out.println("O gato dormiu " + horasDormidas + " horas");
     }
+
+    @Override
+    public String toString() {
+        return "Gato{" +
+                "tipo='" + tipo + '\'' +
+                ", habitat='" + habitat + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", comidaIngerida=" + comidaIngerida +
+                ", distanciaPercorrida=" + distanciaPercorrida +
+                ", horasDormidas=" + horasDormidas +
+                '}';
+    }
 }

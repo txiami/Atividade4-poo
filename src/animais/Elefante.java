@@ -25,4 +25,17 @@ public class Elefante extends AnimalTerrestreAB {
         this.horasDormidas += horasDormidas;
         System.out.println("O elefante dormiu " + horasDormidas + " horas");
     }
+
+    @Override
+    public String toString() {
+        return "Elefante{" +
+                "tipo='" + tipo + '\'' +
+                ", habitat='" + habitat + '\'' +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                ", comidaIngerida=" + comidaIngerida +
+                ", distanciaPercorrida=" + distanciaPercorrida +
+                ", horasDormidas=" + horasDormidas +
+                '}';
+    }
 }

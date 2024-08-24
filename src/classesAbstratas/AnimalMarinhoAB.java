@@ -6,18 +6,4 @@ public abstract class AnimalMarinhoAB extends AnimalAB {
         super(idade, nome, tipo, habitat, peso, altura);
     }
 
-    @Override
-    public String toString() {
-        return "AnimalMarinhoAB{" +
-                "idade=" + idade +
-                ", nome='" + nome + '\'' +
-                ", tipo='" + tipo + '\'' +
-                ", habitat='" + habitat + '\'' +
-                ", peso=" + peso +
-                ", altura=" + altura +
-                ", comidaIngerida=" + comidaIngerida +
-                ", distanciaPercorrida=" + distanciaPercorrida +
-                ", horasDormidas=" + horasDormidas +
-                '}';
-    }
 }
