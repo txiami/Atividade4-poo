@@ -6,4 +6,7 @@ public abstract class AnimalMarinhoAB extends AnimalAB {
         super(idade, nome, tipo, habitat, peso, altura);
     }
 
+
+    public abstract void nadar(int distanciaPercorrida);
+
 }

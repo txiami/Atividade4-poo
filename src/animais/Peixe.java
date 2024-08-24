@@ -15,14 +15,19 @@ public class Peixe extends AnimalMarinhoAB {
 
     @Override
     public void moverse(int distanciaPercorrida) {
-        this.distanciaPercorrida += distanciaPercorrida;
-        System.out.println("O peixe nadou " + distanciaPercorrida + " metros");
+        nadar(distanciaPercorrida);
     }
 
     @Override
     public void dormir(int horasDormidas) {
         this.horasDormidas += horasDormidas;
         System.out.println("O peixe dormiu " + horasDormidas + " horas");
+    }
+
+    @Override
+    public void nadar(int distanciaPercorrida) {
+        this.distanciaPercorrida += distanciaPercorrida;
+        System.out.println("O peixe nadou " + distanciaPercorrida + " metros");
     }
 
     @Override
